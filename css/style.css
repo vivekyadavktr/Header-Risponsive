@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  overflow: hidden;
+}
+nav {
+  background-color: #313744;
+  color: #e4e7ec;
+}
+.main-nav {
+  justify-content: space-between;
+}
+ul {
+  gap: 16px;
+}
+li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+li:hover {
+  color: #43ed9c;
+}
+
+.nav-button a {
+  text-decoration: none;
+  color: white;
+  background-color: #006d5c;
+  padding: 8px 22px;
+  border-radius: 4px;
+  border: 1px solid #006d5c;
+  font-size: 15px;
+  font-weight: 500;
+}
+.salesforce-logo{
+    width="120px"
+}
+.nav-mobile{
+    color: white;
+    display: none;
+}
+
+/* !media query mobile */
+@media(max-width:400px){
+    .nav-link{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .salesforce-logo{
+        display: none;
+    }
+    .nav-mobile{
+        display: contents;
+    
+    }
+    .nav-mobile i{
+        margin-right: 40px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width:600px){
+    .nav-link{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .salesforce-logo{
+        display: none;
+    }
+    .nav-mobile{
+        display: contents;
+    
+    }
+    .nav-mobile i{
+        margin-right: 40px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .nav-link{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .salesforce-logo{
+        display: none;
+    }
+    .nav-mobile{
+        display: contents;
+    
+    }
+    .nav-mobile i{
+        margin-right: 40px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width:998px){
+    .nav-link{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .salesforce-logo{
+        display: none;
+    }
+    .nav-mobile{
+        display: contents;
+    
+    }
+    .nav-mobile i{
+        margin-right: 40px;
+        font-size: 30px;
+    }
+}
